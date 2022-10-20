@@ -1,11 +1,11 @@
-import { Header } from "./components/Header"
-import { Food } from "./components/Food"
+import { PostList } from "./features/posts/PostList";
+import { AddPostForm } from "./features/posts/AddPostForm";
 
 const App = () => {
     return (
       <div>
-        <Header />
-        <Food />
+        <AddPostForm />
+        <PostList />
       </div>
     )
 }
